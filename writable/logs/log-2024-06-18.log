@@ -1,0 +1,2669 @@
+CRITICAL - 2024-06-18 02:13:36 --> ErrorException: Undefined array key "csv_upload"
+[Method: GET, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csv_upload"', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 02:18:23 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-18 02:18:23 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-18 06:00:45 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:00:52 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:04:50 --> ParseError: syntax error, unexpected token "{"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:06:52 --> ParseError: syntax error, unexpected token "{"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:12:12 --> ErrorException: A void function must not return a value
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-18 06:12:31 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\TA_171402052\app\Controllers\Home.php on line 57
+[Method: POST, Route: predict-csv]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Home.php(57): view('hasil_csv', '[
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi ini sangat buruk di gunakan knp dari download skrg belum bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak jelas",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi nya bagus cumannperlu perbaikan sedikit",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sebaiknya stidak naik ke production di automation testing dulu pakai ui testing unit testing  integration testing serta melewati qa tester manual serta pengujian performa aplikasi sehingga harapannya dapat meminimalisir bug rilis dan rating nya tinggi kemudian untuk handler error sebaiknya menggunakan toast  snackbar yang mudah dimengerti orang awam karena ui nya pakai default message response api dari backend sehingga dapat dimengerti sesama programmer",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi sulit di akses",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi gagal",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mohon maaf untuk developer masalah login di perbaiki lg dan masalah pengunggahan data ini tinggal hitungan hari aplikasi harus di gunakan mungkin ini bertujuan memudahkan bisa jadi malah merepotidakan sirekap perbaiki bug dan masalah server ini aplikasi di gunakan sirekap seluruh indonesia",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "developer untuk menambahkan pilihan kamera di aplikasi sirekap ini masa iya di hp kameranya make yang 05",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login mau upload mental terus keluar sendiritidak bisa trss proyek negara seperti iniiii",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kok tidak bisa di buka story vailed key terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "berkalikali gagal login terjadi kesalahan inisialisasi aplikasi karena apa ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bagus aplikasinya namun tidak bisa di login baik",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi gak berguna",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mohon maaf untuk kendala di hp vivo tidak bisa login alasannya device tidak di lakukan inisialisasai mohon untuk perbaikannya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "2 dulu",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa digunakan ngga bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lahkalo aplikasinya tidak 100 normal jangan di rilis dulumeloginan data yang padahal benar dan tepat malah invalid usernamejangan ini menjadi sebuah penghambat saat hari h nantinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasinya terlalu dipaksakan banyak yang perlu diperbaiki not recomended untuk digunakan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "error admin untuk sidik jarinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "namanya aplikasi negara teman teman",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "untuk menambahkan lampu flash pada kameramengingat aplikasi ini digunakan waktu malam hariagar gambar dapat sesuai",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "makin hari makin menurun rate nya susah login dan for close sendiri dong kpu perbaikan nya cepat katanya digitalisasi ko gini mohon penjelasannya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "punya keterangannya aplikasi di gunakan di perangkat",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kpu cacad bikin aplikasi kayak tahu bulet dari segi server tidak diperhatiin kocak",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "oke yes",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak membantu malah nyusahin",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga tidak mengecewakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bukan lambat ngerjainnya lambat uploadnya prosesnya bisa makan waktu 13 jam proses mulu 1 halaman bagaimana jika 6 halaman ",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kok tetap sulit padahal dapat notifikasi dari wa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "upload fotonya lambat banget sih",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "banyak update dan banyak gangguannya sebaiknya tidak usah memakai apl ini jika banyak yang harus diubah dan banyak noise nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lumayan buat pusing waktu loginsmoga segera di perbaikimengingat pemilu bentar",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "oke joss aplikasi mantap",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kami diberitahukan untuk mencoba aplikasi data untuk percobaan tersimpan di aplikasi dan tidak bisa hilangkan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "yang terdahulu versi 231 kelemahan membaca angka dari segi keamanan kurang terlihat dari adanya nama caleg yang muncul uji aplikasi mudah mudahan versi 241 bisa lebih baik",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi sirekap ini suda fto halaman 1 kembali keberanda lnsng kluar dari aplikasin mngpa wktu mau ngunci dokumen lgsg keluar dari aplikasiberi penjelasanny",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi nya perlu di upgrade untuk edit di halaman 2 nya yang presiden bisa dibetulkan jika kesalahan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gagal mendapatkan sertifikat digital padahal izin di setingan aplikasi semua di izinkan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "unt koreksi mohon unt aplikasi nya lebih di siapkan kesiapannya pemilu tidak menjadi batu sandungan yang memper lambat kerja kpps merekap hasil pemilu unt simulasi sekarang banyak sekali kendala yang di alami terimakasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "positif",
+    "ulasan": "force close sendiri",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dari versi 230 berubah menjadi versi 241 aplikasi tetap lelet",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "invalid username or pasword",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi terasa lambat masseh",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mantap  grafiknya semakin bagus kasih bintang 3 dulu next update tak kasih bintang 7 wes",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "posting kadang gini kadang gitu",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "saat pengambilan foto garis pandu untuk penyesuaian area gambar tidak konsisten kadang2 yang berwarna kuning lebih mudah penyesuaiannya kadang2 muncul dg garis berwarna biru susah menyesuaikan area yang difoto",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi lancar",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak siap jangan digunakan foto suruh kirim ulang foto",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak maksimal",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "versi lambat br percobaan aja udah ngehank gimana ntar beneran versi 241 lumayan lancar dari upload foto k verifikasi data cepet bgt",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "makin tidak jelas",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login timeout bagaimana waktu hari h seperti ini terjadi diperbaiki kembali jangan gara2 aplikasi yang tidak sempurna pekerjaan jadi terhambat sehingga menjadi berantakan mohon maaf kasih \\u00e3\\u00b0\\u00e5\\u00b8\\u00e5\\u0092\\u00e5\\u00b8\\u00e3\\u00b0\\u00e5\\u00b8\\u00e5\\u0092\\u00e5\\u00b8 dulu terimakasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "malam bapakibu admin terkhusus untuk kpu perbaiki apknya bisa jangan setengah bikin aplikasi malah mempersulit",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak mampu dan siap untuk digitalisasi ",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya bagusnamun atidak sulit di download",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "beri 4 bintang apresiasi perbaikan kualitas pemilu di perhitungan suara dan transparansinya di versi 248 beri tanggapan sedikit untuk verifikasi data sangat lambat responnya ini menambah beban operator disisi waktu dan monitoring angka hasil yang keluar harus diteliti benar karena angka pada gambar sering kali tidak sesuai plano ini menyulikan operator yang mengupload di tempat yang bersinyal baik karena tidak bawa berkas yang harus foto ulang",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bintang 2 dulu dahh",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi yang sangat leletsudah logintapi tiba tiba keluar sendirierornya minta ampunbagaimana hari pemilihan berlangsungapakah aplikasi ini lancar eror seperti ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga membantu cepat rekapan nya",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "perlu banyak persiapan terutama pada server",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi sangat baik",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasinya lambat",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lambat",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "dipermudah tidak error terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sering susah login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "login eror",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "invalid login sandi dan password mohon arahannyaagar lancar di hari h",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gabisa login setelah update tolongg pakk h hari h",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "ini bukan aplikasi untuk mempermudah kerja kpps manambah kerjaan kpps semoga sehat semua kpps tidak kerja pagi karena nunggu aplikasi",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "harus ksh apresiasi untuk kpu sy yakin sdh sgt maksimal untuk pembuatan aplikasi inimengenai penggelembungan data yakemungkinan yang salah yang menginput sirekap prtma kali krna jelas sdh diinfokan di bimtek untuk cek dulu semuanya stidak submitkrna sdh submit data sdh tidak bisa di edit lagijadi simpulkan bukan salah kpu terima kasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mohon pengeditan dibagian kelola pps saksi dan panwas",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "membantu kpps melakukan hasil pemungutan suara",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mungkin aplikasi ini cocoknya buat pemilu tahun depan kalo sekarang kayaknya tidak siap ppwp 2 tombol editnya tidak berfungsi ini kayaknya disengaja revisi gitu padahal mudah dan ini aplikasi kelas nasional loh bukan mainmain",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aku tidak bisa buka sirekap terjadi kesalahan inisialisasi aplikasi katanya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "untuk proses upload data saat simulasi terhitung cepat prosesnya terlalu lambat pada proses verivikasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah loginnya selalu gagal hadehhhhhh",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kalo bisa di persulit harus di permudah indonesia",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sulit di akses",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sulitnya mendapatkan link notifikasi dari kpu ke wa kpps ",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "waktu versi 230 login veri baru membuat terkeluar bagus rasanya jika pemilihan tahun ini menggunakan it  bapak yang membuat aplikasi di perbagus aplikasinya capek pak belom hari h harus login di atan jam 12malam  belom bisa login kembali tanggal 14 tinggal menghitung hari pak pak",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sirekap pakai handphone samsung a20s versi android 11 ram 4  64 gb jaringan menggunakan telkomsel aplikasinya mudah didownload dan langsung bisa log in semoga saat tanggal 14 februari mudah  lancar pakai aplikasi ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "udah lakukan sesuai intruksi gagal trus untuk analisis sidik jari gmn cb",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kata sandi dan username salah padahal isi sesuai benar apa kendalanya mohon dijelaskan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ko setelah update yang terbaru malah tidak bisa terbukaeror terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "banyak error",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "instal aplikasi tidak bisa digunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bagus namun perlu pusintidakatan kualitas banyak yang kesulitan login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya kadang suka error",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah login nx nti pas perekapansmoga tidak bikin pusing",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kualitas gambar untuk simulasi burem tidak jelas kamera nya gaada fokus nya",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lumayan",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kendala salah password terus padahal sdh sesuaikirim email tidak drespon dan telp ke nmr yang d aplikasipun tidak d angkat ",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "segera di up ke versi 235 karena infonya kami harus menggunakan yang v 235 untuk pemiludan ternyata pagi ini versi langsung berubah ke 241\\u00e3\\u00b0\\u00e5\\u00b8\\u00eb\\u009c\\u00e2\\u0081\\u00e3\\u00b0\\u00e5\\u00b8\\u00eb\\u009c\\u00e2\\u0081",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "masyaallah mau login aja susah nya minta ampun cuma mau dapet sertifikasi digital sehari satu malam tidak bisa bisa dibantu perbaiki dong kendala nya di apa yaa kok mau login aja susah",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "ini bisa komen pake vn ga \\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0080\\u0094\\u00e2\\u00bf\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0080\\u0094\\u00e2\\u00bf\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0080\\u0094\\u00e2\\u00bf",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mencoba inisialisasi seharian tidak bisa login untuk admin konfirmasinya trima kasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login setelah aplikasi di update",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa ambil sertifikat mobile tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sulit loginnya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi lambat saat cek detail",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi menengah ke bawah sekelas kpu ko gini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi ribet",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "harus banyak perbaikan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bagaimana jika lupa pasword lupa pasword baru yang d ganti",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "padahal bisa login di ver 230 setelah update 232 jadi tidak bisa diakses pesan gagal mendapatkan kunci digital  null",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sengaja aplikasi dibuat jelek wkwkwk tidak banyak yang bisa aksesnya",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat apresiasi sekali untuk hadirnya aplikasi ininamun waktu simulasi beserta yang mengalmi beberapa kendala seperti aplikasi salah membaca data yang diambil hasil pengambilan gambar selalu buram kurang maksimal dan mengambil gambar yang berulang2 namun tetap slow respon untuk kedepannya semoga waktu pelaksanaan di hari h semua bisa terkendali dan berjalan baik semoga kedepannya negara indonesia menjadi negara yang lebih maju pemimpin yang baru",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasinya mantap",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dari bintang 1 kasih bintang 3 soale seru hari ini tgl 9 feb menemukan mentidaktifkan fitur ram tambahan bisa mengganggu aplikasi ini berjalan silahkan dicoba bagi yang tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi yang sangat menyusahkan orang aplikasi dikitdikit eror intinya aplikasi yang belum layak pakai dipaksa untuk pakai",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "lupa password gimana solusinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "bulak balik uninstall restart ganti kunci layar polaangkasidik jari padahal memori aman wifi kenceng pake android 11 tetap failed to store private key",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mohon segera di perbaiki terkait masalah aplikasi ini karna pemilu tinggal beberapa hari lagibanyak yang tidak bisa logingagal mendapatkan sertifikat digitalterima kasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "positif",
+    "ulasan": "terimakasih telah bergabung",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login gimana ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sebenarnya aplikasi ini tidak siap tidak efektif dan efisien untuk digunakan sangat menguras waktu dan pikiran server sering down",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "negatif",
+    "ulasan": "sirekapnya selalu salah membaca tulisan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "parah nih aplikasi ngga bisa dipake muter bolak balik loading bisa manual aja seperti stidaknya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ini aplikasi knapa susah login gagal trus segera di perbaiki klancaran bersama \\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0084\\u00a2\\u00e2\\u008f",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "upload ftonya lambata bahkan sering bgt gagal padahal internet kualitas bagus",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sirekap tidak maksimal banyak kekurangan memperlambat pekerjaan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kok lambat",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tampilannya jelek",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mantap aplikasinya",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak login terus cape dehhhh",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gimana aplikasi mempermudah informasi malah login error",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "bisa dimaklumi",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi ini jdi tidak bisa di buka padahal kemarin bisa di buka dan waktu latihan mengupload notif akses kadaluarsa dan skrang malah tidak bisa di buka sama sekali di hp",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "beri opsi lupa passwordubah password biar bisa segera login problem nya di password error terus dari kemaren2 soalnya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bikin pecah kepala",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sering gangguan banyak yang tidak bisa login bisa login malah keluar sendirinya tidak bisa ikut simulasi hari ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kameranya otomatis pake kamera makro jadi hasil gambar burem",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi lambat bikin pusingtolong diperbaiki",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sekarang aplikasi kurang kualitas padahal besok mau dipakai ini mempersulit bukan mempermudah sekarang foto datanya besok tidak terupdate mohon segera diperbaiki",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "pas login memang bisa tpi 2 hari berikutnya terkeluar sendiri trus tidak bisa login kek gini lebih baik tidak usah menggunakan sirekap mohonlah di perbaiki aplikasi nya sebaik mungkin biar pas hari h tidak kendala terimakasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "negatif",
+    "ulasan": "kacang ijo",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bisa untuk kepentingan scan penggunaan kamera bisa di tomatiskan ke kamera utama bukan kamera ultrawide tidak buram terimakasih",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "adanya aplikasi mempermudah adanya aplikasi ini malah bikin panik mana mandiri update sendiri tolonglah seblum luncur aplikasi tuh dipikirkan lgi layak beum",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasinya bikin ribet",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login untuk sertifikat bantuannya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bagus rating naik",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semakin ok kpu sekarang",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi mau kunci dan buat dokumen loading lambat mutermuter terus udah uninstall terus install tetep sama tidak selesai mutermuter",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login padahal ussername dan password",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "untuk versi terbaru meloginan foto tibatiba log out sendirimohon bantuannya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi paling ngerepotin",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "setelah updated malah tidak bisa login dong sediakan aplikasi yang fix tanpa perlu update terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "dong developernya jaringan bermasalah saat inisialisasi sertifikat digitalnya jadi error tidak bisa login solusinya bagaimana pemilu semua berjalan lancar",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga update baru lebih satset dan membantu petuga dilapanganjanji bintangnya ditambah perform ok",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "min akun tidak bisa login padahal udah bener user sama pw nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gagal login mulu",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "dipermudah penggunaan aplikasi",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mengambil gambar dan di kirim malah keluar sesi telah berakhir harap log in kembali dan log in kembali malah invalid username or password pdahal username dan password benar dan tidak pernah di ganti",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi abal abal anggaran yang triliunan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lambat kali selesai memproses gambarnya pas harih gimana jadinya ini waduh gawat",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sampe sekarang aku di tagih file dari sirekap sirekap nya yang tidak bisa kunci dan simpan dokumen kasih bintang satu buat penilaian niat nya doang bikin ni aplikasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi ini bikin tambah ribet aja tidak guna ujung nya masi manual",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "maklum sedang uji coba",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mudah mudahan sangat akurat",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "masalah pembaharuan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi rewel",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah login ke aplikasi ini di perbaiki segera",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah login nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak mempermudah malah mempersulit",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login min hadeuh",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "permulaan digitalisasi aplikasi cukup baik lah berdoa tgl 14 februari nnti aplikasi ini lancar terutama pada proses pengenalan gambar seblum di submit yang saat ini cukup memakan waktu yang cukup lambat semangat operator sirekap",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "di maksimalkan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "menjelang pemilumau dipakai setelah update tidak bisa loginkacau duhhh",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi kurang efiaien mau login gagal gagal terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "habis ganti pasword malah gagal tiap hari didesak terus sama kpu padahal hp android 13 ram 8",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bikin pusing banyak bug nya digunakan tintidakat nasional traffic padat bisa jadi klok",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "selambatt siang admint username dan password invalid jadi tidak bisa login sempat uninstal aplikasi yang versi lambat bagaimana ini ",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "udah login logout sendiri dan login malah susah login invalid trus",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "bisa aplikasi ini harus di apdate lebih baik karna bbrapa hari ini mau login di aplikasi susah login brapa kali di ulang ttap sma susah login aplikasinya harus dipermantap",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi oleng terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sirekap 2024sangatlah penting sekali",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bikin susah petugas kpps",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lupa password gimana ka",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "saran bisa di tambahin fitur ambil gambar dari galeri jelas zoom kamera seperti 05 buat 1 aja lah semoga terlaksana pemilu selanjutnya",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gabisa login eror terusssss",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "beberapa hari ini error terus bagaimana login aplikasinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bukan nya dipermudah ini malah bikin pusinggggggggg",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kemarin bisa lancar entah tibatiba tidak bisa login padahal tidak pernah logout mau login kendala gagal mendapatkan sertifikat digital hello kemarin bisa loh nyoba login di hp malah password salah padahal ngtidak pernah ganti password mohon perhatiannya h berapa ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi eror kemaren bisa dibuka skarang tidak bisa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mohon untuk sediakan server yang memadai semua bisa beroperasi baik memudahkan semuanya bukannya menyusahkan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "muter aja susah login yang belum optimal",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "semangat kak semua masalah solusinya kan terlogin solusi tidak mendapatkan notifikasi wa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kami tidak tahu bagaimana cara buka ini aplikasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "3 hari login sirekap tidak berhasil pak selalu berhenti setelah pembuatan kata sandi baru mohon info nya lolos login sirekap",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kecepatan upload pembaca gambar low respon sangat lambat jangan menghambat pekerjaan di hari h nantinya segera perbaiki server pengembang aplikasi ini bisa dibayangkan pengguna aplikasi 2 jtan bersamaan tq semangat perbaikan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sulit di operasikan setelah instal ulang aplikasi malah berhenti sendirinya mohon solusinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bikin pusing parah",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi terus eror",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga aplikasi ini makin membaik dan bagus\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u00a4\\u00e2\\u0080\\u0094",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "terlalu lambat pak",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "percuma nginput data dari sono nya udah manipulasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "loginan password sama username yang dikirim kpu malah invalid terus padahal baru mau login pertama",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sedikit saran untuk pemilu selanjut sirekap untuk bagian scan kalo bisa meloginkan jumlah hasil manual soalnya pemindaian terlalu lambat menunggu dan tidak sesuai chasil dan pemegang aplikasi yang lupa mengedit sehingga langsung di submit akhirnya banyak masyarakat yang bilang kecurangan karena tidak perbedaan yang di foto",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya pas ambil ulang gambar malah keluar sendiri padahal cache dan data berulang kali coba dihapus tidak perubahangaleri semua foto dihapus tetap tidak perubahan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "seperti ini siapa yang salah kpu admin sirekap yang berusaha data benar dan jujur terupload di aplikasi bisabisanya menyalahkan admin pilkada besok diperbaiki aplikasi ini aplikasi tidak mateng disuruh kejar tayang sekian terimakasih semoga lebih baik ",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "beberapa fitur yang tidak maksimal",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kapan update si rekap ini aku menanti update yang baru karena aku kangen banget menggunakan aplikasi ini kapan update kapan yaa udah tak tunggu tunggu update biar bisa digunakan aku dah kangen banget pingin pakai sirekap aduh pokoknya kangen banget aplikasi yang bikin susah orang tidur aplikasi yang bikin betah berlambat lambat di depan hape pokoknya kangen banget pakai aplikasi ini sirekap sirekap aplikasi yang tak pernah bosan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi paling ribet yang pernah ku download dari log in sampe simulasi aja masalahnya \\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0080\\u0094\\u00e2\\u00bf",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak oke",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sayang susah d buka",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tlong atasi tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi pantekk",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya tidak bisa digunakan di atas android 11 seperti versi android versi 13 tidak bisa login ke aplikasi nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "h beberapa hari tidak makin mudah malah makin susah digunakan aplikasi tidak sempurna dipaksakan untuk digunakan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mungkin bisa di kembangkan viturvitur  kesulitan mulai saat login dan tahap selanjutnya cukup membuat repot \\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0084\\u00a2\\u00e2\\u008f\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u0084\\u00a2\\u00e2\\u008f",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "harus sabar menggunakan aplikasi sirekap",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dari awal instal sampe bisa login perlu waktu cukup lambat dan sabar menunggu di hari h bisa lancar digunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kesalahan inisialisasi data terus gmna solusinya nih min ",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "baik",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "banyak yang harus di tingkatkan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "data mudah sekali diretas dan kualitas jelek padahal ini sekelas untuk negara",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "minta link untuk reset sandiada beberapa user yang lupa sandi",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "burukkkkkk sangat buruk",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lumayan membaik nih apk yang jadi masalah sekarang bisa tidak kpu sendiri netral  trus aplikasi jga terlalu banyak manual banyak celah untuk kecurangan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "dibantu untuk bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi lambat susah di akses eror pusing",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login pada aplikasi sirekap nya gimana cara loginnya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat membantu pemilihan",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "cara login nya gimana tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "setelah di update malah tidak bisa kunci dan membuat dokumentolong perbaiki ini waktu mepet seharian sampe malam tidak bisa kirim berkas",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mungkin jika pengambilan gambar nya bisa seperti camscanner lebih mudah untuk di gunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "negatif",
+    "ulasan": "amit2 ih",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "terlalu dipaksakan buang buang uang padahal uang tersebut bisa dipakai untuk mensejahterahkan masayarakat yang membutuhkan malah di buat aplikasi tanggung macam ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "di perbaiki secepatnyamasih banyak bug dan errorkarena hari h pemilu sangat dekat jaraknya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak user friendly tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "anggota kpps awalnya menggunakan nomor dan hp lambat namun saat beralih ke nomor dan hp yang baru tidak bisa login mohon solusinya bintang 2 dl aja soalnya tidak bisa ke perangkat",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi nya hasilnya eror terus tidak bisa inisialisasinotifikasi nya itugagal mendapatkan sertepikat digital karena akun tercatat melakukan inisialisasi coba melakukan clear data padahal udah berapa kali di coba login apknya tidak pernah mendaptidakan hasil inisialisasi nya mengingat pemilu semakin dekat mohon perbaikan secepat nya jika aplikasi ini memang di harus kan untuk di gunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sirekapnya diperbaiki scan datanya diinput otomatis dan server tidak down",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak bagus masa mau foto aja langsung log out sendiri tidak kamera bawaan aplikasi nya jelek malah nyalahin kpps",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "ditikat kan kualitas foto",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "mohon bantuannya min tidak bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "banyak kekurangan misal 1 c hasil di foto ulang harus 4 c hasil di foto ulang kan terus prosesnya lambat banget lalu tidak bisa edit data saksippsdll pas buka aplikasi harus login tidak profil pengguna kayak nama dan nik nomor lalu status aktif",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak layak",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi super ribet bukan memudahkan malah mempersulit diri",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gagal mendapat kunci digital null solusi",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sulit melakukan login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sy sehari semalam login sesuai username n passwordnya tetap g bisa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kok bisa event sepenting ini kurang berapa hari gini aja ",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya tidak siap dan tidak bisa digunakan  login sulit server invalid terus menerus memberatidakan kepada sirekap khususnya mohon udah mendekati pemilu semoga sistemnya bisa lancar dan tidak kendala apapun terimakasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah banget ini apk tidak kebayang hari h eror gin",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login kak",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kerja kembali part ii perhitungan ulang kec tanjung senang  bandar lampung",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "positif",
+    "ulasan": "yah pastih gatot lokal priet",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dong dipermudah buat login nya ini susah banget buat login dan kadang aplikasi nya suka eror kalok emang sekira nya apl ini tidak siap mending ditiadakan aplikasi ini kembali ke sistem manual seperti dulu",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ini diupdate ke versi yang baru apa tidak hilang chasil yang difoto",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi trmsk aplikasi 02",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi atidak lambat mohon di up grade",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak mu buka lagiy",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat mengapresiasi pencapaian kpu untuk meluncurkan aplikasi ini untuk memudahkan rekap pemilu dan lebih mengapresiasi jika aplikasi ini tidak usah di gunakan pada pemilu tahun ini tak kasih dongeng server gampang down salah baca huruf balok harus ketik manual kamera blur verifikasi nunggu 1 jam lebih per capture capek dikit ngtidak ngaruh",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "login gagal notiv  device tidak dilakukan inisialisasi tidak jadi saat ini ujicobanya hsrusnya dari jauh jauh hari",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak maksimal perlu di tingkatkan sering error terutama untuk crop gambar susah dan harus foto langsung tidak dapat mengambil gambar dari galeri langsung",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak netral",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "oksangat membantu",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "selambat ini aplikasi lancar pengembangan jadi banyak update hari ini 09022024 tidak bisa d akses permasalahn gagal mengambil sertifikat digital",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi sering eror",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi berjalan baik",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi ini kan pernah dipakai untuk simulasi ko tidak direset bekas isiannya mohon untuk segera direset",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "pilihan macam apa ini rugi dong",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "username dan pasword salah terus tidak dapat login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aneh kpu lembaga yang resmi negara pakai aplikasi tidak jelas banyak keluhan buang2 anggaran aplikasi dipakai untuk memudahkan ini malah bikin gaduh dan kecurigaan di masyarakat untuk sekelas pemilu harusnya uji coba dulu aplikasinya asli parah",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "awalnya tidak bisa setelah hps download yang versi 232 baru bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "positif",
+    "credibility": "negatif",
+    "ulasan": "data diedit sesuai berita acara giliran dikirim berbeda",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "selalu gagal mendapatkan sertifikat digital",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bikin aplikasi untuk mepermudah bukan nya makin bikin susah nantu giliran kesalahan si rekap yang di panggil panggil padahal aplikasi nya yang busuk yang bener bikin aplikasi tidak mampu mending manual aja",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak sesuai harapan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "harap tidak usah pake sirekap untuk kami yang susah sinyal pedalambatn",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "adanya alflikasi ini masyarakat dapat mudah meakses perhitungan suara pemilu di kpu ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tersenyum selalu saat mengunakan aplikasi ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "selalu gagal login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "lag parah lebih di tingkatkan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "silakan aktifkan kunci layar untuk membuka aplikasi tetap tidak bisa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sy beri rating 4 bintang sbg bentuk apresiasi aplikasi ini tidak bisa bekerja maksimal terutama proses membaca  menganalisis foto form c hasil plano yang upload sangat2 lambat sekali 5 hr setelah tgl pemilu tidak selesai proses sehingga tidak bisa mengunci dan membuat dokumen c hasil sy berharap kedepannya bisa lebih baik terutama daya dan kapasitas servernya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sekarang tidak bisa unggah berkas pdf padahal sinyal udah bagus selalu gagal",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "padahal simulasitapi hasil gambar sangat buruk",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sering keluar udah kadang foto tidak kebaca udah aja",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bagus tidak aplikasi ini",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sekarang tidak bisa login jelaskan kendalanya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah log in nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "bisa di bantu milik pertama log in kemudian log out sendirinya kemudian untuk log in kembali password salah terusjd tidak bisa log in",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "anggaran elit server sulit cuakss",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ga bisa login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "oohh tuhan susah sekali inisialisasi padahal data semua kan sesuai dari kpu tidak bisa dipermudah mana tiap beberapa hari harus cek aktivasi nangis di bikin ini aplikasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tolng tintidatidakn kualtisx krana tidk bisa msuk di aplikasi ini",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "terlalu sering log out sendiri dan susah log in karena password selalu salah padahal stidak nya bisa log in",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "verifikasi fotonya lambat 2 hari nunggu dan tidak verifikasi",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "perlu di tingkatkan karena tidak bisa login dan perlu untuk perbaikan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sering susah login lodingnya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "1 kamera buram tidak fokus lock focus 2 harus login ulang error waktu pemilu gimana 3 c hasil tidak sesuai foto dan harus edit manual 4 c hasil lembar ke 3 tidak bisa di edit waktu 3 hari mohon segera diperbaiki",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dgn cara apa bisa di buka aplikasi nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak bisa digunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak maksimal login dan saat uploud foto hasil dari pemilihan terkendala login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ini aplikasi simulasi g bisa login yahtolong bntuanya ini g bisa msuk ajh",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasinya login sangat sulit keterangannya autentikasi gagal",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "apknya bagus cuman di persulit karena hp yang tidak punya sidik jari bisa login cuman pas kelola daftar hadir tidak bisa pake pengenal wajah harus sidik jari tolongggg sekali di permudah pake pin pengenal wajah",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dana triliunan menghasilkan aplikasi yang tidak bisa digunakan \\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u00a4\\u00e2\\u00a3\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u00a4\\u00e2\\u00a3\\u00e3\\u00b0\\u00e5\\u00b8\\u00e2\\u00a4\\u00e2\\u00a3",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mudah mudahan perbaikan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga hari h lancar",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak siap pakai dipaksa untuk meluncur dan merugikan banyak orang terutama anggota kpps yang dijadikan kambing hitam padahal emang apknya yang tidak siap pakai sepenuhnya",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "perlu di upgrade mempermudah sirekapkhususnya memuat data lebih cepat",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi sirekap",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa log in sirekap apa karna rambya kecil cuman 2 gb",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi yang sangat menyusahkan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "good",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "untuk aplikasi sendiri susah login buat aktivasi akun",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "amburadul  pemilu sdh dekat aplikasi sangat sangat tidak bisa mempermudah pengembangan aplikasi butuh waktu bertahun tahun ini terlalu cpt membuat aplikasi tidak memadai tidak efektif dan efisien dan sdh trsebar luas  hasilnya eror  bkn salah hp emang aplikasi nya tidak siap dipake tempur",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bagaimana jika lupa password",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "pusing",
+    "usability": "negatif"
+  },
+  {
+    "availability": "positif",
+    "credibility": "positif",
+    "ulasan": "blomm baguss",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat bermanfaat aplikasinya namun perlu perbaikan",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "3 dulu karena tidak teruji",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "dong kameranya diberi pilihan hp memuat kamera 05x pas login sirekap yang jadi bawaan sirekap 05x fotonya jadi buram susah dibaca pengembang cari tau bagaimana bisa 1x bukan 05x tidak ketemu jadi mohon pengembang kameranya punya pilihan 1x terima kasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga segera pembenahan dari segi sistemnya kwalitas foto tidak maksimal  pengoperasian tidak fix terima kasih",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "negatif",
+    "ulasan": "aplikasi curang",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "bahkan pemilu hitungan hari aplikasi ini jauh dari kata siap banyak sekali kendala yang dialami petugas sirekap padahal ini baru simulasi aplikasi yang digunakan hajat besar negara bisa di kaji dan uji coba benarbenar matang untuk kemudian dipakai sedikit kendala kecil untuk kedepannya jika semuanya berbasis aplikasi bisa disiapkan maksimal",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kesalahan inisialisasi pusing uda d cn mcm2 cra\\u00e3\\u00b0\\u00e5\\u00b8\\u00eb\\u009c\\u00e2\\u0080\\u00a1\\u00e3\\u00b0\\u00e5\\u00b8\\u00eb\\u009c\\u00e2\\u0080\\u00a1",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "adanya aplikasi kan sejatinya untuk memudahkan proses lah mau login apknya susah knp harus dilanjutkan dan keluhan tidak bisa log in malah yang disuruh sabar harusnya kan pihak teknisi apknya yang berbenah memangnya sabar tiba2 apknya jadi bisa digunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "banyak aktifasi yang mempersulit",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tau ini aplikasi di buat pihak kpu nya langsung bagaimana yaa kalo misalkan di buat pihak kpu harus di matengin dan apa tidak uji coba uji coba banyak yang tidak bisa login login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "stlh update versi berhasil login saat uji coba harus ulang foto berkali2 smg saat hari h aplikasi siap dipakai",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "mantap versi terakhir bisa d gunakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "pakai versi android 13 mau log in tidak bisa eh nyoba pakai versi android 10 langsung bisa diperbaiki tanggal 14 mau server down apa ngtidak pusing anggota kpu se indonesia",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak dpt wa email n pasword",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "login malah keluar dari akun sirekap dan susah untuk login",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi ini sangat menyusahkan dan menyulut emosi",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "versi 241 tidak dapat tambahkan foto daftar hadir dan foto kejadian khsusu",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa di buka bos",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi sangat luarbiasa",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "laahhhhh terjadi kesalahan sat melakukan inisialisasi aplikasi mulu tolooong",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "lelet aplikasi tidak bisa di gunakan 100",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi rusak",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "baik",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "di tingkatkan karena aplikasi ini untuk login nya aja susah upload saat dijalankan nantinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "logout sendiri yah terus mau login malah tidak bisaa",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tanggal tidak bisa dihapus setelah simulasi menyusahkan banget deh",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bermanfaat",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kami pengguna android samsung a53 saat penggunaan scan c hasil yang terpakai kamera ultra wide bukan kamera utama jadi hasil gambar tidak maksimal untuk scan",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kemarin terdaftar dan bisa di gunakan setelah beberapa hari mau login disuruh loginan password malah tidak bisa bacaannya login gagal perangkat ini telah teregistrasi akun padahal login pke password yang sama gimana solusinya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak bisa loginhadeh sg marai muleh isuuukk iki kyok e toloong ndaannn",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tujuan diciptakan digitaliaasi sangat baik mengefisienkan waktu dan membantu data tetap aman hasil lapangannya tidak sesuai target alhasil sering terjadi bug salah satunya waktu mau upload data harus ke log out terus login marker tidak bisa terdeteksi dan peletakan fitur nya terlalu ribet dan tidak memudahkan pengguna sekali kalo meloginkan data saksi tidak bisa dihapus entah bagaimana cara menghapus nya semoga waktu hari h tidak kendala",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "loading nya lambat harap diatasi secepatnya sulit login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "habis di perbarui pas mau login username dan pw salah gimana kak",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gagal login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi yang menentukan indonesia kedepan nya bagaimana kok bisabisanya susah log in ",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "setelah update kok malah tidak bisa login padahal email password benar",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semangat kpu",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "tidak siap bikin aplikasi jangan dulu deh yah yang bener aja rugi dong kalo aplikasinya gini bukan mempermudah malah mempersulit hadeeh",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak jelas rugiin orang doang",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "gagal mendapat kan sertivikasi di gitalsolusi nya bagai man",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": " mau ringan dan tidak down mending dihilangkan item yang tidak perlu seperti data saksi yang penting c hasil aja yang diutamakan",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "made in pemerintah dari dulu gini mulu minusnya tidak bisa auto focus fitur utama sebuah aplikasi yang menggunakan kamera tidak bisa menyalakan flash fitur tambahan untuk memperjelas objek foto tidak bisa pake foto di galeri fitur tambahan jika minta foto ulang dan server kurang kuat",
+    "usability": "negatif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "untuk saat ini aplikasinya cukup lumayan bagus",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "smoga berfungsi dg baik lancar",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "ini gimna wktu sgt mepet tpi susah sekali buat login dibagian inisialisasi loading trus bantu padahal sinyal bagus",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "semoga aplikasi ini lebih baik tidak loading terus mengoperasikannya",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "susah banget buat login kapasitas ram lumayan besar dong kak hari h semakin dekat nih",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bagus kendalanya foto tidak bisa fokus ke dokumen",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak dibuka 1 hari tahutahu tidak aktif dan saat login selalu gagal salah password dan email padahal password dan emailnya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kualitas hasil foto buruk banyak noise mohon untuk segera diperbaiki",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "sulit untuk login",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "setelah upgrade malah masalah baru muncul",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "tidak bisa login menggunakan username lambat baru",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "kualitas gambar hasil jepretan aplikasi sirekap sangat gelap  dan tidak bisa di edit  padahal kamera biasa terang dan jelas ditingkatkan kualitasnya ",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "alhamdulillah bisa login perbaiki beberapa bug yang min",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi bagus berjalan lancar",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "yang bisa aku tidak bisa login terus",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat bagus",
+    "usability": "positif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi bikin ribet login aja susah",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "yg tidak bisa pas peng upload an foto caranya  saat sesi foto matiin datanya terus hidupkan data penguncian data sekian",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "uiux aplikasi ini bagus dan rapi fitur keamanan autentikasi sangat baik namun sepertinya model data yang dilatih untuk membuat machine learningnya jauh dari kata sempurna bahkan bagus sehingga output yang dihasilkan tidak seperti yang diharapkan users bahkan developernya sendiri",
+    "usability": "negatif"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "kayaknya indikasi curang nih aplikasi setelah update kok malah tidak bisa ke buka",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "pikir cuma yang mendapat keluhan login pas waktu inisilisasi malah nyantidakut ndak ndak bisa padahal hpnya sesuai jaringan nya sesuai tetep ndak bisa ini sampe bingung ternyata banyak yang sama keluhan nya",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "positif",
+    "ulasan": "mantapp",
+    "usability": "positif"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "aplikasi yang cukup siap bintang 3 dulu",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi error  kadang tidak bisa log in",
+    "usability": "netral"
+  },
+  {
+    "availability": "negatif",
+    "credibility": "netral",
+    "ulasan": "aplikasi tidak berguna setelah d updet tidak bisa login lgi ini apl penting untidak anggota kpps tpi ko malah gini gmna klu pas hari h nya msi gni",
+    "usability": "netral"
+  },
+  {
+    "availability": "netral",
+    "credibility": "netral",
+    "ulasan": "sangat buruk sistemnya membuat kerja si rekap tambah ribet",
+    "usability": "negatif"
+  }
+]
+')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:13:02 --> ParseError: syntax error, unexpected token "foreach"
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 59.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(57): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:13:22 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 69.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(57): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:13:33 --> ErrorException: Undefined variable $result
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 59.
+ 1 APPPATH\Views\hasil_csv.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:14:31 --> ErrorException: Undefined variable $result
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 57.
+ 1 APPPATH\Views\hasil_csv.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:14:49 --> ErrorException: Undefined variable $data
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 57.
+ 1 APPPATH\Views\hasil_csv.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:45:10 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 60.
+ 1 APPPATH\Views\hasil_csv.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:45:44 --> ParseError: Unmatched '}'
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 70.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:45:59 --> ErrorException: Undefined variable $key
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 64.
+ 1 APPPATH\Views\hasil_csv.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:46:14 --> ParseError: syntax error, unexpected token ";"
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 64.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:46:42 --> ParseError: syntax error, unexpected token ";"
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 64.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:46:55 --> ParseError: syntax error, unexpected token ";"
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 64.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 3 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:48:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 59.
+ 1 APPPATH\Views\hasil_csv.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:50:49 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 59.
+ 1 APPPATH\Views\hasil_csv.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:51:44 --> ErrorException: Undefined variable $key
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 60.
+ 1 APPPATH\Views\hasil_csv.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:53:03 --> ErrorException: Array to string conversion
+[Method: POST, Route: predict-csv]
+in APPPATH\Views\hasil_csv.php on line 60.
+ 1 APPPATH\Views\hasil_csv.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TA_171402052\\app\\Views\\hasil_csv.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hasil_csv', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('hasil_csv', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 06:56:26 --> TypeError: App\Controllers\Home::predict_csv(): Return value must be of type string, none returned
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:07:07 --> ErrorException: Undefined array key "csv_upload"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csv_upload"', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:07:28 --> ErrorException: Undefined array key "csv_upload"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csv_upload"', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:07:47 --> ErrorException: Array to string conversion
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:08:07 --> ErrorException: Undefined array key "tmp_name"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tmp_name"', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:10:18 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:10:49 --> ErrorException: Undefined array key 0
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 07:12:01 --> ErrorException: A void function must not return a value
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-18 09:11:00 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 09:19:55 --> ParseError: syntax error, unexpected single-quoted string "total_data", expecting ")"
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,10 @@
+CRITICAL - 2024-07-10 07:52:28 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: predict-csv]
+in APPPATH\Controllers\Home.php on line 70.
+ 1 APPPATH\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\TA_171402052\\app\\Controllers\\Home.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->predict_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
